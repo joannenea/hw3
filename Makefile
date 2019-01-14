@@ -1,4 +1,4 @@
 all: pcaprd.c
-	gcc -o pcaprd pcaprd.c -lpcap
+	gcc -o pcap_offline pcap_offline.c -lpcap
 clean: pcaprd
-  rm pcaprd
+  rm pcap_offline
